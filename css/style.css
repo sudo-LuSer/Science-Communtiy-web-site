@@ -1,0 +1,500 @@
+:root {
+
+	--red: #fe3e57;
+	
+	--light-red: #e94d62;
+	
+	--white: #fffffe;
+	
+	--dim-white: #e1e1e1;
+	
+	--primary-text: rgb(230, 241, 255);
+	
+	--territory-text: rgb(214, 217, 224);
+	
+	--secondary-text: rgb(166, 172, 194);
+	
+	--secondary-head: rgb(215, 224, 236);
+	
+	--primary-background: #17315a;
+	
+	--card-background: rgb(35, 64, 107);
+	
+	--secondary-background: rgb(13, 34, 68);
+	
+	--secondary-button: #294572;
+	
+	--dark-shadow: #051020;
+	
+	--footer: #131d2c;
+	
+	--montserrat: "Montserrat",sans-serif;
+	
+	--open-sans: "Open Sans",sans-serif;
+
+}
+
+span{
+
+	color: var(--territory-text);
+
+	filter: drop-shadow(2px 4px 8px var(--dark-shadow));
+
+}
+
+.dlabel{
+
+	position: relative;
+
+	top: 100px;
+
+	float: right;
+
+}
+
+.DarkBnt:hover{
+
+	background: var(--red);
+
+}
+
+span:hover{
+
+	color: var(--light-red) !important;
+
+	filter: drop-shadow(2px 4px 8px var(--dark-shadow));
+
+}
+
+a{
+
+	text-decoration: none !important;
+
+}
+
+*{
+
+	transition: all 2s ease;
+
+}	
+
+body{
+
+	background : var(--secondary-background);
+
+	font-family:var(--open-sans);
+
+	font-variant: small-caps;
+
+}
+
+nav{
+
+	position: absolute;
+
+	left: 0px;
+
+	top: 0px;
+
+	background: var(--secondary-background);
+
+	width: 100%;
+
+	height: 75px;
+
+	position: fixed;
+
+	z-index: 500;
+
+	filter: drop-shadow(2px 4px 8px var(--dark-shadow));
+
+}
+
+li{
+
+	display: inline-block;
+
+	padding-top: 15px;
+
+	padding-left: 15px;
+
+	color: var(--territory-text);
+
+}
+
+li:hover{
+
+	color: var(--light-red);
+
+}
+
+#gitlink{
+
+	color: var(--territory-text);
+
+	text-decoration: underline !important;
+
+}
+
+#gitlink:hover{
+
+	color : var(--light-red);
+
+}
+
+#Instuctions{
+
+	background : var(--primary-background);
+
+	color: var(--territory-text);
+
+	position: absolute;
+
+	top: 30%;
+
+	left:0%;
+
+	font-size: 130%;
+
+	border: 1px var(--light-red) solid;
+
+}
+
+#Instuctions:hover{
+
+	background: var(--light-red);
+
+	color: var(--primary-background);
+
+	top: 17%;
+
+}
+
+#Contactbtn{
+
+	background : var(--primary-background);
+
+	border: 1px var(--red) solid;
+
+	height: 45px;
+
+	width: 240px;
+
+	color: var(--territory-text);
+
+	position: absolute;
+
+	left: 50%;
+
+	top: 70%;
+
+	font-size:120%;
+
+	transform  : translate(-50%,-50%);
+
+}
+
+#Contactbtn:hover{
+
+	background-color: var(--red) !important;
+
+	color: var(--primary-background);
+
+	top: 65%;
+
+	filter: drop-shadow(2px 4px 8px var(--dark-shadow));
+}
+
+#menuX{
+
+	visibility: hidden;
+
+	background: var(--card-background);
+
+}
+
+#phone_ms,#phone_ss,#phone_cs{
+
+	font-size: 150%;
+
+	text-decoration: none !important;
+
+	color: var(--territory-text);
+
+	position: relative;
+
+	top: 150px;
+
+	filter: drop-shadow(2px 4px 8px var(--dark-shadow));
+
+}
+
+#phone_ms:hover,#phone_ss:hover,#phone_cs:hover{
+
+	color: var(--red);
+
+	border-bottom:5px var(--red) solid;
+
+}
+
+#file{
+
+	border-radius: 60px;
+
+	filter: drop-shadow(2px 4px 8px var(--dark-shadow));
+
+}
+
+#file:hover{
+
+	background:var(--light-red);
+
+}
+
+.contactTitle{
+
+	color:var(--territory-text);
+
+}
+
+form{
+
+	flex-direction:row;
+
+	justify-content:space-between;
+
+}
+
+.form{
+
+	position: relative;
+
+	top: 10px;
+
+}
+
+.mailBTN,.MyPhoneNum{
+
+	background: var(--secondary-background);
+
+	border: 1px var(--light-red) solid;
+
+	color: var(--territory-text);
+
+	height: 80px;
+
+	width: 355.5px;
+
+	font-size:150%;
+
+	margin: 2.5px;
+
+}
+
+.mailBTN:hover,.MyPhoneNum:hover{
+
+	border: 1px var(--light-red) solid;
+
+	background-color: var(--red);
+
+	color: var(--secondary-background);
+
+	filter: drop-shadow(2px 4px 8px var(--dark-shadow));
+
+	position: relative;
+
+	left: 20px;
+
+}
+
+#Share{
+
+	height: 50px;
+
+	width: 355.5px;
+
+	background: var(--secondary-background);
+
+	border: 1px var(--red) solid;
+
+	font-size:120%;
+
+	color: var(--territory-text);
+
+	margin: 2.5px;
+
+	box-shadow: 2px 4px 8px var(--dark-shadow);
+
+}
+
+#Share:hover{
+
+	background: var(--red);
+
+	color: var(--secondary-background);
+
+}
+
+.File{
+
+	color: var(--red);
+
+	font-size: 100%;
+
+	border: none !important;
+
+}
+
+input,textarea{
+
+	background: var(--secondary-background);
+
+	border:1px var(--red) solid;
+
+	font-size: 100%;
+
+	height: 45px;
+
+	width: 350px;
+
+	margin: 2.5px;
+
+	color: var(--red);
+
+	box-shadow: 2px 4px 8px var(--dark-shadow);
+
+}
+
+input::placeholder,textarea::placeholder{
+
+	color: var(--white);
+
+}
+
+textarea{
+
+	width: 349.5px;
+
+	height: 100px;
+
+	box-shadow: 2px 4px 8px var(--dark-shadow);
+
+}
+
+.loading_gif{
+
+	position: absolute;
+
+	left: 50%;
+
+	top: 50%;
+
+	transform  : translate(-50%,-50%);
+
+}
+
+.Sent{
+
+	background: var(--red);
+
+	border-radius: 50px;
+
+	position: absolute;
+
+	left: 50%;
+
+	top: 35%;
+
+	transform: translate(-50% , -50%);
+
+}
+	
+@media(max-width: 950px){
+
+	.dlabel{
+
+		top: 10px;
+
+	}
+
+	textarea{
+
+		width: 294.5PX !important;
+
+	}
+
+	input{
+
+		width: 296.5px;
+
+	}
+
+	.form{
+
+		top: 15px;
+
+	}
+
+	.mailBTN,.MyPhoneNum,#Share{
+
+		width: 300px;
+
+	}
+	
+	#file{
+
+		height: 150px;
+
+		width: 150px;
+
+	}
+
+	#Contactbtn{
+
+		top: 95%;
+
+	}
+
+	#Contactbtn:hover{
+
+		top: 90%;
+
+	}
+
+	nav{
+
+		visibility: hidden;
+
+	}
+
+	#menuX{
+
+		visibility: visible;
+
+		filter: drop-shadow(2px 4px 8px var(--dark-shadow));
+
+		z-index: 500;
+
+	}
+
+	#menuX:hover{
+
+		background: var(--red);
+
+	}
+
+	span{
+
+		font-size: 100% !important;
+
+	}
+
+	#Instuctions{
+
+		top: 15%;
+
+		font-size: 110% !important;
+
+	}
+
+}
